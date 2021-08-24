@@ -15,10 +15,8 @@ public class MainScreen extends BaseScreen {
 
     @WindowsFindBy(xpath = "//Pane[@AutomationId=\"BackstageView\"]//ListItem[@Name=\"Blank document\"]")
     private WebElement blankDocument;
-
     @WindowsFindBy(xpath = "//Button[@AutomationId=\"FileTabButton\"]")
     private WebElement fileTabButton;
-
     @WindowsFindBy(xpath = "//Window[@Name=\"Word\"]//List[@AutomationId=\"NavBarMenu\"]")
     private WebElement navbarMenu;
 

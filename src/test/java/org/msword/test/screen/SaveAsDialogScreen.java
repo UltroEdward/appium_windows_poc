@@ -8,7 +8,6 @@ public class SaveAsDialogScreen extends BaseScreen {
 
     @WindowsFindBy(xpath = "//Window[@Name=\"Save As\"]//Edit[@Name=\"File name:\"]")
     private WebElement fileNameEdit;
-
     @WindowsFindBy(xpath = "//Window[@Name=\"Save As\"]//Button[@Name=\"Save\"]")
     private WebElement saveButton;
 
