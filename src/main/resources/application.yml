@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: MS Word Test
+  main:
+    banner-mode: off
+
+appium:
+  server: http://127.0.0.1:4723
+  wait: 30
+application:
+  ms-word:
+    executable: "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE"
+    store-dir: "C:/Users/edvar/Documents/"
